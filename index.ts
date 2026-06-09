@@ -27,9 +27,9 @@ export default definePlugin({
     authors: [Devs.Ven, Devs.adryd],
 
     start() {
-        fetch("https://raw.githubusercontent.com/adryd325/oneko.js/c4ee66353b11a44e4a5b7e914a81f8d33111555e/oneko.js")
+        fetch("https://raw.githubusercontent.com/matxatamtay/rem-oneko/refs/heads/main/rem.js")
             .then(x => x.text())
-            .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
+            .then(s => s.replace("./oneko.gif", "https://github.com/matxatamtay/rem-oneko/blob/2d4251912de9cc4b8382d2d1d7da06b1c706f41c/zzzz.png")
                 .replace("(isReducedMotion)", "(false)"))
             .then(eval);
     },
