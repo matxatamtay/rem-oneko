@@ -10,7 +10,7 @@
 
   // Đổi URL này thành ảnh sprite sheet Rem của mày
   // Ảnh của mày: 1774 x 887, layout 8 cột x 4 hàng
-  const SPRITE_URL = "https://your-domain.com/rem-sprite.png";
+  const SPRITE_URL = "https://github.com/matxatamtay/rem-oneko/blob/2d4251912de9cc4b8382d2d1d7da06b1c706f41c/zzzz.png";
 
   const COLS = 8;
   const ROWS = 4;
